@@ -1,0 +1,24 @@
+{
+  "name": "vendor_name/upcasted-s3-offload",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Boar Dragos",
+      "email": "dragos@upcasted.com"
+    },
+    {
+      "name": "Andrei Rebenciuc",
+      "email": "andrei@upcasted.com"
+    }
+  ],
+  "config": {
+    "platform": {
+        "php": "7.4"
+    }
+  },
+  "require": {
+    "aws/aws-sdk-php": "^3.303.2"
+  }
+}
